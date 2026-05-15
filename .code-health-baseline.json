@@ -1,7 +1,7 @@
 {
 	"version": 1,
-	"generated": "2026-05-13T10:23:52.870Z",
-	"totalViolations": 87,
+	"generated": "2026-05-15T09:10:32.606Z",
+	"totalViolations": 85,
 	"violations": {
 		"packages/@n8n/ai-workflow-builder.ee/package.json": [
 			{
@@ -553,28 +553,12 @@
 				"hash": "955f3fe044c7"
 			}
 		],
-		"packages/@n8n/db/src/migrations/common/1783000000000-CreateAgentTables.ts": [
-			{
-				"rule": "migration-timestamp",
-				"line": 1,
-				"message": "1783000000000-CreateAgentTables.ts is prefixed with a future timestamp (1783000000000). Migration prefixes must be the exact Date.now() value at the time of creation — AI agents commonly fabricate future timestamps.",
-				"hash": "6599e9e66680"
-			}
-		],
-		"packages/@n8n/db/src/migrations/common/1783000000001-CreateAgentExecutionTables.ts": [
-			{
-				"rule": "migration-timestamp",
-				"line": 1,
-				"message": "1783000000001-CreateAgentExecutionTables.ts is prefixed with a future timestamp (1783000000001). Migration prefixes must be the exact Date.now() value at the time of creation — AI agents commonly fabricate future timestamps.",
-				"hash": "e55008535c0e"
-			}
-		],
 		"packages/@n8n/db/src/migrations/common/1784000000000-CreateAgentObservationTables.ts": [
 			{
 				"rule": "migration-timestamp",
 				"line": 1,
-				"message": "1784000000000-CreateAgentObservationTables.ts is prefixed with a future timestamp (1784000000000). Migration prefixes must be the exact Date.now() value at the time of creation — AI agents commonly fabricate future timestamps.",
-				"hash": "5f4857aa8248"
+				"message": "1784000000000-CreateAgentObservationTables.ts is prefixed with a future timestamp (1784000000000). Migration prefixes must reflect Date.now() at creation — AI agents commonly fabricate future timestamps.",
+				"hash": "7aa68d186230"
 			}
 		]
 	}
